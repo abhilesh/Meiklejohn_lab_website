@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Meiklejohn Lab</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="Design/js/bootstrap.js"> </script>
+    <script src="Design/js/jquery-2.1.4.js"> </script>
+    <script src="Design/js/material.js"></script>
+    <script src="app.js"> </script>
+    
+    <link rel="stylesheet" href="Design/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Design/css/material.min.css">
+    <link rel="stylesheet" href="main.css">
+
+    <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+  <body>
+
+<!-- Always shows a header, even in smaller screens. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header mdl-shadow--6dp">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title logo-icon"> <a href="#"> <img src="Images/transparent_text_effect.png"> </a> </span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation. We hide it in small screens. -->
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        <a class="mdl-navigation__link" href="Research/research.html">Research</a>
+        <a class="mdl-navigation__link" href="Publications/publications.html">Publications</a>
+        <a class="mdl-navigation__link" href="People/people.html">People</a>
+        <a class="mdl-navigation__link" href="Contact/contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+    <span class="mdl-layout-title"> Meiklejohn Lab </span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="Research/research.html">Research</a>
+      <a class="mdl-navigation__link" href="Publications/publications.html">Publications</a>
+      <a class="mdl-navigation__link" href="People/people.html">People</a>
+      <a class="mdl-navigation__link" href="Contact/contact.html">Contact</a>
+    </nav>
+  </div>
+
+  <main class="mdl-layout__content">
+    <div class="page-content">
+      <div class="slider">
+      <div class="slide active-slide">
+        <div class="container" style="width: 960px;">
+          <div class="row">
+            <div class="slide-copy col-xs-12">
+              <a href="#"><img src="Images/array_image_1.png" width="100%" height="470px"></a>
+            </div>
+          </div> 
+        </div>
+      </div>
+
+      <div class="slide">
+        <div class="container" style="width: 960px;">
+          <div class="row">
+            <div class="col-xs-12">
+              <a href="#"><img src="Images/fly.png" width="100%" height="470px"></a>
+            </div>
+          </div> 
+        </div>
+      </div>
+
+      <div class="slide">
+        <div class="container" style="width: 960px;">
+          <div class="row">
+            <div class="slide-copy col-xs-12">
+              <a href="#"><img src="Images/Slide_three.png" width="100%" height="470px"></a>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div> 
+
+    <div class="slider-nav">
+      <a href="#" class="arrow-prev"><img src="Images/arrow-prev.png"></a>
+      <ul class="slider-dots">
+        <li class="dot active-dot">&bull;</li>
+        <li class="dot">&bull;</li>
+        <li class="dot">&bull;</li>
+
+      </ul>
+      <a href="#" class="arrow-next"><img src="Images/arrow-next.png"></a>
+    </div> 
+
+    <div class="container-brand text-center">
+      <h1> Hello, We're the Meiklejohn Lab! </h1>
+      <p> This is what we do!</p>
+    </div>
+    </div>
+
+  </main>
+  </body> 
+
+</html>
