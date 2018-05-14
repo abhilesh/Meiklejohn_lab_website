@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Contact</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="../Design/js/bootstrap.js"> </script>
+    <script src="../Design/js/jquery-2.1.4.js"> </script>
+    <script src="../Design/js/material.js"></script>
+    <script src="../app.js"> </script>
+    
+    <link rel="stylesheet" href="../Design/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Design/css/material.min.css">
+    <link rel="stylesheet" href="../main.css">
+
+    <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+  <body>
+
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header mdl-shadow--6dp">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title logo-icon"> <a href="../index.html"> <img src="../Images/transparent_text_effect.png"> </a> </span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation. We hide it in small screens. -->
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        <a class="mdl-navigation__link" href="../Research/research.html">Research</a>
+        <a class="mdl-navigation__link" href="../Publications/publications.html">Publications</a>
+        <a class="mdl-navigation__link" href="../People/people.html">People</a>
+        <a class="mdl-navigation__link" href="../Contact/contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+    <span class="mdl-layout-title"> Meiklejohn Lab </span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="../Research/research.html">Research</a>
+      <a class="mdl-navigation__link" href="../Publications/publications.html">Publications</a>
+      <a class="mdl-navigation__link" href="../People/people.html">People</a>
+      <a class="mdl-navigation__link" href="../Contact/contact.html">Contact</a>
+    </nav>
+  </div>
+
+  <main class="mdl-layout__content">
+    <div class="page-content">
+
+    <h2 align="center"> Contact </h2> 
+
+    <div class="container" style="padding: 20px;">
+      <div class="row">
+        <div class="col-sm-2 col-md-2 col-lg-2">
+        </div>
+        <div class="col-sm-8 col-md-8 col-lg-8">
+          <div class="mdl-grid">
+            <div class="mdl-card mdl-shadow--6dp mdl-card-wide">
+              <div class="mdl-card__supporting_text text-justify" style="padding:30px 30px 40px 40px">
+              <div class="contact-text">
+                <h5> Dr. Colin Meiklejohn </h5> 
+                <p> 302, Manter Hall,
+                <br> University of Nebraska-Lincoln, <br> Lincoln, NE - 68588 <br>
+                Email: <a href="mailto:cmeiklejohn2@unl.edu">cmeiklejohn2@unl.edu</a></p>
+              </div> 
+                <div class="google-map" style="text-decoration:none; overflow:hidden; height:300px; width:300px; max-width:100%; border-style:solid; border-width:2px; border-color:#936658;"><div id="canvas-for-google-map" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Manter+Hall,+Lincoln,+NE,+United+States&key=AIzaSyDIA2Q6oyG-DfGHYdvAyTYvivIHj7LEDJQ"></iframe></div><a class="embed-map-code" href="https://www.hostingreviews.website" id="make-map-data">namecheap</a><style>#canvas-for-google-map img{max-width:none!important;background:none!important;}</style></div><script src="https://www.hostingreviews.website/google-maps-authorization.js?id=264a1e4c-2c03-153b-87df-61a909318587&c=embed-map-code&u=1456945407" defer="defer" async="async"></script>
+                </div> 
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-2">
+        </div>
+
+    <!----
+
+    <h2 align="center"> The Contact Page </h2>
+
+    <div class="col-sm-2 col-md-2 col-lg-2"></div>
+
+    <div class="col-sm-8 col-md-8 col-lg-8">
+    <div class="row">
+    <div class="mdl-card mdl-shadow--16dp card-square">
+      <h5> Dr. Colin Meiklejohn </h5> 
+      <p> 302, Manter Hall,
+      <br> University of Nebraska-Lincoln, <br> Lincoln, NE - 68588 <br>
+      Email: <a href="mailto:cmeiklejohn2@unl.edu">cmeiklejohn2@unl.edu</a></p>
+    </div>
+    <div class="mdl-card">
+        <div class="center" style="text-decoration:none; overflow:hidden; height:300px; width:300px; max-width:100%; border-style:solid; border-width:2px; border-color:#936658;"><div id="canvas-for-google-map" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Manter+Hall,+Lincoln,+NE,+United+States&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe></div><a class="embed-map-code" href="https://www.hostingreviews.website" id="make-map-data">namecheap</a><style>#canvas-for-google-map img{max-width:none!important;background:none!important;}</style></div><script src="https://www.hostingreviews.website/google-maps-authorization.js?id=264a1e4c-2c03-153b-87df-61a909318587&c=embed-map-code&u=1456945407" defer="defer" async="async"></script>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="col-sm-2 col-md-2 col-lg-2"></div>
+    
+    //--> 
+
+    </div>
+  </main>
+
+  </div>
+  </body>
+  </html>

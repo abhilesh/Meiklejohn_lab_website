@@ -6,6 +6,15 @@ body {
   background-color:#EEEEEE;
 }
 
+a:link, a:visited {
+  color: #2B36BD;
+}
+
+a:hover, a:active {
+  color: #BF2835;
+  text-decoration: none;
+}
+
 @media screen and (min-width: 992px) {
     .mdl-layout__drawer {
         display: none;
@@ -20,6 +29,7 @@ body {
 
 .mdl-layout__header{
   position: fixed;
+  background-color: #137b99;
 }
 
 main { padding-top: 65px; }
@@ -27,9 +37,30 @@ main { padding-top: 65px; }
     main { padding-top: 40px; }
 }
 
+/* styling for full page slider */
+.full-slider {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .mdl-navigation a {
   text-transform: bold;
+  color: #ff8c31;
+}
 
+.mdl-navigation__link {
+  font-size: 16px;
+}
+
+.mdl-button--primary {
+  text-transform: none;
+  text-align: center;
+  font-size: 22px;
 }
 
 .card-square.mdl-card {
@@ -75,6 +106,12 @@ main { padding-top: 65px; }
   padding-left: 20px;
 }
 
+.container-brand {
+  padding-top: 20px;
+  padding-right:40px;
+  padding-left:40px;
+}
+
 .image-margin {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -83,7 +120,8 @@ main { padding-top: 65px; }
 }
 
 .header {
-  background-color: rgba(255, 255, 255, 0.50);
+  background-color: #137b99;
+  /*background-color: rgba(255, 255, 255, 0.50);*/
   border-bottom: 1px solid #ddd;
   
   font-size: 17px;
@@ -304,4 +342,14 @@ main { padding-top: 65px; }
 .contact-text {
   float: left;
   padding-right: 150px;
+}
+
+/* remove indent from ordered lists */
+ol {
+    list-style-position: inside;
+    padding-left:0;
+}
+
+li.research-item {
+  margin: 0 0 3px 0;
 }

@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Publications</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="../Design/js/bootstrap.js"> </script>
+    <script src="../Design/js/jquery-2.1.4.js"> </script>
+    <script src="../Design/js/material.js"></script>
+    <script src="../app.js"> </script>
+    
+    <link rel="stylesheet" href="../Design/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Design/css/material.min.css">
+    <link rel="stylesheet" href="../main.css">
+
+    <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+  <body>
+
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header mdl-shadow--6dp">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title logo-icon"> <a href="../index.html"> <img src="../Images/transparent_text_effect.png"> </a> </span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation. We hide it in small screens. -->
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        <a class="mdl-navigation__link" href="../Research/research.html">Research</a>
+        <a class="mdl-navigation__link" href="../Publications/publications.html">Publications</a>
+        <a class="mdl-navigation__link" href="../People/people.html">People</a>
+        <a class="mdl-navigation__link" href="../Contact/contact_t.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+    <span class="mdl-layout-title"> Meiklejohn Lab </span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="../Research/research.html">Research</a>
+      <a class="mdl-navigation__link" href="../Publications/publications.html">Publications</a>
+      <a class="mdl-navigation__link" href="../People/people.html">People</a>
+      <a class="mdl-navigation__link" href="../Contact/contact.html">Contact</a>
+    </nav>
+  </div>
+
+  <main class="mdl-layout__content">
+    <div class="page-content">
+
+  <h2 align="center"> Selected Publications </h2> 
+
+  <div align="center", style="padding-bottom: 10px">
+    <button class="mdl-button mdl-js-button mdl-button--primary">
+      <a href="https://scholar.google.com/citations?user=EOpxqqYAAAAJ&hl=en&oi=ao" target="_blank" style="color:inherit; text-decoration: none;">
+        <i>Colin's Scholar page</i></a>
+    </button>
+  </div>  
+
+  <!-- First row -->
+  <div class="row">
+  <div class="col-sm-1 col-md-1 col-lg-1"></div>
+
+  <div class="col-sm-10 col-md-10 col-lg-10">
+    <div class="mdl-grid">
+      <div class="mdl-card mdl-shadow--6dp mdl-card--horizontal-2 mdl-cell mdl-cell--4-col">
+        <div class="mdl-card__title">
+          <h4 class="mdl-card__title-text">Sex Chromosome-wide Transcriptional Suppresion and Compensatory  Cis-Regulatory Evolution Mediate Gene Expression in the Drosophila Male Germline</h4>
+        <div class="mdl-card__subtitle-text">EL Landeen, CA Muirhead, L Wright, CD Meiklejohn, DC Presgraves
+          <br>
+          <br>PLoS Biology 2016
+        </div>
+        </div>
+        <div class="mdl-card__media">
+          <img src="../Images/cdm_2013.png" alt="img" height="112" width="112">
+        </div>
+        <div class="mdl-card__actions">
+          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-upgraded=",MaterialButton,MaterialRipple" href="https://doi.org/10.1371/journal.pbio.1002499" target="_blank">Article</a>
+        </div>
+    </div>
+    <div class="mdl-card mdl-shadow--6dp mdl-card--horizontal-2 mdl-cell mdl-cell--4-col">
+      <div class="mdl-card__title">
+        <h4 class="mdl-card__title-text">Heterochromatin and Genetic Conflict</h4>
+      <div class="mdl-card__subtitle-text">CD Meiklejohn
+        <br>
+        <br> PNAS 2016
+      </div>
+      </div>
+      <div class="mdl-card__media">
+        <img src="PNAS_2016.png" alt="img" height="125" width="112">
+      </div>
+      <div class="mdl-card__actions">
+        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-upgraded=",MaterialButton,MaterialRipple" href="http://www.pnas.org/content/113/15/3915.full" target="_blank">Article</a>
+      </div>
+    </div>
+    <div class="mdl-card mdl-shadow--6dp mdl-card--horizontal-2 mdl-cell mdl-cell--4-col">
+      <div class="mdl-card__title">
+        <h4 class="mdl-card__title-text">Genome-Wide Gebe Expression Effects of Sex Chromosome Imprinting in Drosophila</h4>
+      <div class="mdl-card__subtitle-text">B Lemos, AT Branco, PP Jiang, DL Hartl, CD Meiklejohn
+        <br>
+        <br> G3: Genes|Genomes|Genetics 2014
+      </div>
+      </div>
+      <div class="mdl-card__media">
+        <img src="G3_2014.png" alt="img" height="125" width="112">
+      </div>
+      <div class="mdl-card__actions">
+        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-upgraded=",MaterialButton,MaterialRipple" href="https://doi.org/10.1534/g3.113.008029" target="_blank">Article</a>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <!-- Second row -->
+
+  <div class="col-sm-1 col-md-1 col-lg-1"></div>
+  </div>
+
+  <div class="row">
+  <div class="col-sm-1 col-md-1 col-lg-1"></div>
+
+  <div class="col-sm-10 col-md-10 col-lg-10">
+    <div class="mdl-grid">
+      <div class="mdl-card mdl-shadow--6dp mdl-card--horizontal-2 mdl-cell mdl-cell--4-col">
+        <div class="mdl-card__title">
+          <h4 class="mdl-card__title-text">The roles of cis-and trans-regulation in the evolution of regulatory incompatibilities and sexually dimorphic gene expression</h4>
+        <div class="mdl-card__subtitle-text">CD Meiklejohn, JD Coolon, DL Hartl, PJ Wittkopp
+          <br>
+          <br> Genome research 2014
+        </div>
+        </div>
+        <div class="mdl-card__media">
+          <img src="Genome_Research_2013.png" alt="img" height="125" width="112">
+        </div>
+        <div class="mdl-card__actions">
+          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-upgraded=",MaterialButton,MaterialRipple" href="http://genome.cshlp.org/content/24/1/84.full" target="_blank">Article</a>
+        </div>
+    </div>
+  <div class="mdl-card mdl-shadow--6dp mdl-card--horizontal-2 mdl-cell mdl-cell--4-col">
+    <div class="mdl-card__title">
+      <h4 class="mdl-card__title-text">An Incompatibility between a Mitochondrial tRNA and Its Nuclear-Encoded tRNA Synthetase Compromises Development and Fitness in Drosophila</h4>
+    <div class="mdl-card__subtitle-text">CD Meiklejohn, MA Holmbeck, MA Siddiq, DN Abt, DM Rand, KL Montooth
+      <br>
+      <br>PLoS Genetics 2013
+    </div>
+    </div>
+    <div class="mdl-card__media">
+      <img src="PLOS_Gen_2013.png" alt="img" height="125" width="112">
+    </div>
+    <div class="mdl-card__actions">
+      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-upgraded=",MaterialButton,MaterialRipple" href="https://doi.org/10.1371/journal.pgen.1003238" target="_blank">Article</a>
+    </div>
+  </div>
+  <div class="mdl-card mdl-shadow--6dp mdl-card--horizontal-2 mdl-cell mdl-cell--4-col">
+    <div class="mdl-card__title">
+      <h4 class="mdl-card__title-text">Little Evidence for Demasculinization of the Drosophila X Chromosome among Genes Expressed in the Male Germline</h4>
+    <div class="mdl-card__subtitle-text">CD Meiklejohn, DC Presgraves
+      <br>
+      <br> Genome Biology and Evolution 2012
+    </div>
+    </div>
+    <div class="mdl-card__media">
+      <img src="GBE_2012.png" alt="img" height="125" width="112">
+    </div>
+    <div class="mdl-card__actions">
+      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-upgraded=",MaterialButton,MaterialRipple" href="https://doi.org/10.1093/gbe/evs077" target="_blank">Article</a>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <div class="col-sm-1 col-md-1 col-lg-1"></div>
+  </div>
+
+  <!-- Third row -->
+  <div class="row">
+  <div class="col-sm-1 col-md-1 col-lg-1"></div>
+
+  <div class="col-sm-10 col-md-10 col-lg-10">
+    <div class="mdl-grid">
+      <div class="mdl-card mdl-shadow--6dp mdl-card--horizontal-2 mdl-cell mdl-cell--4-col">
+        <div class="mdl-card__title">
+          <h4 class="mdl-card__title-text">Sex Chromosome-Specific Regulation in the Drosophila Male Germline But Little Evidence for Chromosomal Dosage Compensation or Meiotic Inactivation</h4>
+        <div class="mdl-card__subtitle-text">CD Meiklejohn, EL Landeen, JM Cook, SB Kingan, DC Presgraves
+          <br>
+          <br> PLoS Biology 2011
+        </div>
+        </div>
+        <div class="mdl-card__media">
+          <img src="../Images/cdm_2013.png" alt="img" height="112" width="112">
+        </div>
+        <div class="mdl-card__actions">
+          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-upgraded=",MaterialButton,MaterialRipple" href="https://doi.org/10.1371/journal.pbio.1001126" target="_blank">Article</a>
+        </div>
+    </div>
+  <div class="mdl-card mdl-shadow--6dp mdl-card--horizontal-2 mdl-cell mdl-cell--4-col">
+    <div class="mdl-card__title">
+      <h4 class="mdl-card__title-text">Mitochondrial-Nuclear Epistasis Affects Fitness Within Species But Does Not Contribute to Fixed Incompatibilities Between Species of Drosophila</h4>
+    <div class="mdl-card__subtitle-text">KL Montooth, CD Meiklejohn, DN Abt, DM Rand
+      <br>
+      <br> Evolution 2010
+    </div>
+    </div>
+    <div class="mdl-card__media">
+      <img src="Evolution_2010.png" alt="img" height="125" width="112">
+    </div>
+    <div class="mdl-card__actions">
+      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-upgraded=",MaterialButton,MaterialRipple" href="https://dx.doi.org/10.1111%2Fj.1558-5646.2010.01077.x" target="_blank">Article</a>
+    </div>
+  </div>
+  <div class="mdl-card mdl-shadow--6dp mdl-card--horizontal-2 mdl-cell mdl-cell--4-col">
+    <div class="mdl-card__title">
+      <h4 class="mdl-card__title-text">Genetic Conflict and Sex Chromosome Evolution</h4>
+    <div class="mdl-card__subtitle-text">CD Meiklejohn, Y Tao
+      <br>
+      <br> Trends in Ecology and Evolution 2010
+    </div>
+    </div>
+    <div class="mdl-card__media">
+      <img src="../Images/cdm_2007.png" alt="img" height="112" width="112">
+    </div>
+    <div class="mdl-card__actions">
+      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-upgraded=",MaterialButton,MaterialRipple" href="https://www.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&retmode=ref&cmd=prlinks&id=19931208" target="_blank">Article</a>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <div class="col-sm-1 col-md-1 col-lg-1"></div>
+  </div>
+
+  <!-- Fourth row -->
+  <div class="row">
+  <div class="col-sm-1 col-md-1 col-lg-1"></div>
+
+  <div class="col-sm-10 col-md-10 col-lg-10">
+    <div class="mdl-grid">
+      <div class="mdl-card mdl-shadow--6dp mdl-card--horizontal-2 mdl-cell mdl-cell--4-col">
+        <div class="mdl-card__title">
+          <h4 class="mdl-card__title-text">Positive and Negative Selection on the Mitochondrial Genome</h4>
+        <div class="mdl-card__subtitle-text">CD Meiklejohn, KL Montooth, DM Rand
+          <br>
+          <br> Trends in Genetics 2007
+        </div>
+        </div>
+        <div class="mdl-card__media">
+          <img src="../Images/cdm_2013.png" alt="img" height="112" width="112">
+        </div>
+        <div class="mdl-card__actions">
+          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-upgraded=",MaterialButton,MaterialRipple" href="https://doi.org/10.1016/j.tig.2007.03.008" target="_blank">Article</a>
+        </div>
+    </div>
+  <div class="mdl-card mdl-shadow--6dp mdl-card--horizontal-2 mdl-cell mdl-cell--4-col">
+    <div class="mdl-card__title">
+      <h4 class="mdl-card__title-text">A Bayesian Method for Analysing Spotted Microarray Data</h4>
+    <div class="mdl-card__subtitle-text">CD Meiklejohn, JP Townsend
+      <br>
+      <br> Briefings in Bioinformatics 2005
+    </div>
+    </div>
+    <div class="mdl-card__media">
+      <img src="../Images/cdm_2010.png" alt="img" height="112" width="112">
+    </div>
+    <div class="mdl-card__actions">
+      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-upgraded=",MaterialButton,MaterialRipple" href="https://doi.org/10.1093/bib/6.4.318" target="_blank">Article</a>
+    </div>
+  </div>
+  <div class="mdl-card mdl-shadow--6dp mdl-card--horizontal-2 mdl-cell mdl-cell--4-col">
+    <div class="mdl-card__title">
+      <h4 class="mdl-card__title-text">Evolution of Proteins and Gene Expression Levels are Coupled in Drosophila and are Independently Associated with mRNA Abundance, Protein Length, and Number of Protein-Protein Interactions</h4>
+    <div class="mdl-card__subtitle-text">B Lemos, BR Bettencourt, CD Meiklejohn, DL Hartl
+      <br>
+      <br> Molecular Biology and Evolution 2005
+    </div>
+    </div>
+    <div class="mdl-card__media">
+      <img src="MBE_2005.png" alt="img" height="112" width="112">
+    </div>
+    <div class="mdl-card__actions">
+      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-upgraded=",MaterialButton,MaterialRipple" href="https://doi.org/10.1093/molbev/msi122" target="_blank">Article</a>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <div class="col-sm-1 col-md-1 col-lg-1"></div>
+  </div>
+
+  <!-- Fifth row -->
+  <div class="row">
+  <div class="col-sm-1 col-md-1 col-lg-1"></div>
+
+  <div class="col-sm-10 col-md-10 col-lg-10">
+    <div class="mdl-grid">
+      <div class="mdl-card mdl-shadow--6dp mdl-card--horizontal-2 mdl-cell mdl-cell--4-col">
+        <div class="mdl-card__title">
+          <h4 class="mdl-card__title-text">Inferring Evolutionary History through Inter-and Intraspecific DNA Sequence Comparison</h4>
+        <div class="mdl-card__subtitle-text">CJ Parsch, CD Meiklejohn, DL Hartl
+          <br>
+          <br> Selective Sweep 2005
+        </div>
+        </div>
+        <div class="mdl-card__media">
+          <img src="../Images/cdm_2013.png" alt="img" height="112" width="112">
+        </div>
+        <div class="mdl-card__actions">
+          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-upgraded=",MaterialButton,MaterialRipple" href="https://link.springer.com/content/pdf/10.1007/0-387-27651-3.pdf#page=10" target="_blank">Article</a>
+        </div>
+    </div>
+  <div class="mdl-card mdl-shadow--6dp mdl-card--horizontal-2 mdl-cell mdl-cell--4-col">
+    <div class="mdl-card__title">
+      <h4 class="mdl-card__title-text">Rates of divergence in gene expression profiles of primates, mice, and flies: stabilizing selection and variability among functional categories</h4>
+    <div class="mdl-card__subtitle-text"> B Lemos, CD Meiklejohn, M Cáceres, DL Hartl
+      <br>
+      <br> Evolution 2005
+    </div>
+    </div>
+    <div class="mdl-card__media">
+      <img src="Evolution_cover.png" alt="img" height="112" width="112">
+    </div>
+    <div class="mdl-card__actions">
+      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-upgraded=",MaterialButton,MaterialRipple" href="https://doi.org/10.1554/04-251" target="_blank">Article</a>
+    </div>
+  </div>
+  <div class="mdl-card mdl-shadow--6dp mdl-card--horizontal-2 mdl-cell mdl-cell--4-col">
+    <div class="mdl-card__title">
+      <h4 class="mdl-card__title-text">Regulatory evolution across the protein interaction network</h4>
+    <div class="mdl-card__subtitle-text">B Lemos, CD Meiklejohn, DL Hartl
+      <br>
+      <br> Nature Genetics 2004
+    </div>
+    </div>
+    <div class="mdl-card__media">
+      <img src="Nature_Genetics.png" alt="img" height="112" width="112">
+    </div>
+    <div class="mdl-card__actions">
+      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-upgraded=",MaterialButton,MaterialRipple" href="http://rdcu.be/D92Y" target="_blank">Article</a>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <div class="col-sm-1 col-md-1 col-lg-1"></div>
+  </div>
+
+  <!-- Sixth row -->
+  <div class="row">
+  <div class="col-sm-1 col-md-1 col-lg-1"></div>
+
+  <div class="col-sm-10 col-md-10 col-lg-10">
+    <div class="mdl-grid">
+      <div class="mdl-card mdl-shadow--6dp mdl-card--horizontal-2 mdl-cell mdl-cell--4-col">
+        <div class="mdl-card__title">
+          <h4 class="mdl-card__title-text">Identification of a locus under complex positive selection in Drosophila simulans by haplotype mapping and composite-likelihood estimation</h4>
+        <div class="mdl-card__subtitle-text"> CD Meiklejohn, Y Kim, DL Hartl, J Parsch
+          <br>
+          <br> Genetics 2004
+        </div>
+        </div>
+        <div class="mdl-card__media">
+          <img src="Genetics.png" alt="img" height="112" width="112">
+        </div>
+        <div class="mdl-card__actions">
+          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-upgraded=",MaterialButton,MaterialRipple" href="https://doi.org/10.1534/genetics.103.025494" target="_blank">Article</a>
+        </div>
+    </div>
+  <div class="mdl-card mdl-shadow--6dp mdl-card--horizontal-2 mdl-cell mdl-cell--4-col">
+    <div class="mdl-card__title">
+      <h4 class="mdl-card__title-text">Rapid evolution of male-biased gene expression in Drosophila</h4>
+    <div class="mdl-card__subtitle-text"> CD Meiklejohn, J Parsch, JM Ranz, DL Hartl
+      <br>
+      <br> PNAS 2003
+    </div>
+    </div>
+    <div class="mdl-card__media">
+      <img src="PNAS_2003.png" alt="img" height="125" width="112">
+    </div>
+    <div class="mdl-card__actions">
+      <a  class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-upgraded=",MaterialButton,MaterialRipple" href="http://www.pnas.org/content/100/17/9894.short" target="_blank">Article</a>
+    </div>
+  </div>
+  <div class="mdl-card mdl-shadow--6dp mdl-card--horizontal-2 mdl-cell mdl-cell--4-col">
+    <div class="mdl-card__title">
+      <h4 class="mdl-card__title-text">Sex-dependent Gene Expression and Evolution of the Drosophila Transcriptome</h4>
+    <div class="mdl-card__subtitle-text"> JM Ranz, CI Castillo-Davis, CD Meiklejohn, DL Hartl
+      <br>
+      <br> Science 2003
+    </div>
+    </div>
+    <div class="mdl-card__media">
+      <img src="Science_2003.png" alt="img" height="125" width="112">
+    </div>
+    <div class="mdl-card__actions">
+      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-upgraded=",MaterialButton,MaterialRipple" href="http://science.sciencemag.org/content/300/5626/1742.full" target="_blank">Article</a>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <div class="col-sm-1 col-md-1 col-lg-1"></div>
+  </div>
+
+
+
+</div>
+</main>
+
+</div>
+</body>
+</html>
