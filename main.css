@@ -353,3 +353,8 @@ ol {
 li.research-item {
   margin: 0 0 3px 0;
 }
+
+.undergrad-images {
+  width: 300px;
+  height: 270px;
+}
